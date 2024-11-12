@@ -1,0 +1,28 @@
+"""basic syntax of lists"""
+
+my_numbers: list[float] = []  # literal
+my_numbers: list[float] = list()  # constructor
+
+# my_name: str = "" # literal
+# my_name: str = str() #constructor
+
+print(my_numbers)
+
+my_numbers.append(1.5)
+print(my_numbers)
+
+
+game_points: list[int] = [102, 86, 94]
+
+
+def display(int_list: list[int]) -> None:
+    """displays all elements of int[list]"""
+
+    index: int = 0
+
+    while index < len(int_list):
+        print(int_list[index])
+        index += 1
+
+
+display(int_list=game_points)

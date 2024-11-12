@@ -1,0 +1,8 @@
+def get_weather_report() -> str:
+    """"""
+    weather: str = input("what is the weather?")
+
+    print(weather)
+
+
+get_weather_report()

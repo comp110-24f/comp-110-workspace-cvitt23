@@ -1,0 +1,32 @@
+"""practice w conditionals"""
+
+
+def less_than_10(num: int) -> None:
+    """tell me if num is >10"""
+    if num < 10:
+        return True
+
+    print(less_than_10)
+    
+
+
+def should_i_eat(hungry: bool) -> None:
+    """tells me whether or not to eat based on hunger"""
+    if hungry:
+        print("eat some food")
+    else:
+        print("do homework")
+    print("proud of you <3")
+
+
+should_i_eat(hungry=True)
+
+def check_first_letter(word: str, letter: str) -> str: 
+    """check if letter is first character of word"""
+    if word[0]== letter: 
+        return: "Match!"
+    else: 
+        return("no match"!)
+
+print(check_first_letter(word=”happy”, letter=”s”))
+                         
